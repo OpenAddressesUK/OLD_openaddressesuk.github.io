@@ -13,3 +13,5 @@ defaults:
 
     values:
       layout: post
+
+permalink: pretty
