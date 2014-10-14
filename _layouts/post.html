@@ -2,6 +2,6 @@
 layout: default
 ---
 
-<h1>BLOST</h1>
-
 {{content}}
+
+<p>{% if page.author %} By {{page.author}} on {% endif %} {{ page.date | date_to_long_string }}</p>
