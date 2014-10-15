@@ -1,6 +1,8 @@
 - title: About
   path: /about
   children:
+    - title: About Open Addresses
+      path: /about
     - title: Team
       path: /about/team
     - title: Jobs
