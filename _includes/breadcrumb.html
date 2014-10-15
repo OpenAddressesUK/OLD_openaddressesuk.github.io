@@ -2,9 +2,9 @@
 
   <ol class="breadcrumb">
     <li><a href="/">Home</a></li>
-    
+
     {% for item in site.data.navigation %}
-    
+
       {% if item.path == page.url %}
         <li>{{item.title}}</li>
       {% else %}
@@ -12,12 +12,21 @@
           {% if child.path == page.url %}
             <li><a href="{{item.path}}">{{item.title}}</a></li>
             <li>{{child.title}}</li>
-          {% endif %}        
-        {% endfor %}     
+          {% endif %}
+        {% endfor %}
       {% endif %}
-    
-    {% endfor %} 
-    
+
+    {% endfor %}
+
+    {% if page.categories %}
+      <li>
+        <a href="/about/{{page.categories}}">{{page.categories | first | capitalize}}</a>
+      </li>
+      <li>
+        {{page.title}}
+      </li>
+    {% endif %}
+
   </ol>
 
 {% endif %}

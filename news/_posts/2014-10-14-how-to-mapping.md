@@ -1,6 +1,4 @@
 ---
-categories: blog
-author: Kermit the Frog
 ---
 
 Bacon ipsum dolor sit amet ribeye venison shankle brisket corned beef. Venison ea spare ribs dolore consequat ut. Chuck eiusmod pork spare ribs, brisket prosciutto consectetur pork chop ribeye kielbasa. Pork chop pig ut ham hock turducken. Kevin capicola ut pork.

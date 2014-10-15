@@ -1,5 +1,4 @@
 ---
-categories: blog
 author: Kermit the Frog
 ---
 
