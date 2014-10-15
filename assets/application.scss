@@ -24,3 +24,12 @@
   z-index: 1 !important;
   color: #fff !important;
 }
+
+dt {
+  margin-bottom: $padding-small-vertical;
+  font-size: $font-size-large;
+}
+
+dd {
+  margin-bottom: $padding-large-vertical;
+}
