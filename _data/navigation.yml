@@ -1,34 +1,34 @@
 - title: About
-  path: /about
+  path: /about/
   children:
     - title: About Open Addresses
-      path: /about
+      path: /about/
     - title: Team
-      path: /about/team
+      path: /about/team/
     - title: Jobs
-      path: /about/jobs
+      path: /about/jobs/
     - title: Funders
-      path: /about/funders
+      path: /about/funders/
 
 - title: The Open Addresses File
-  path: /about/open-addresses-file
+  path: /about/open-addresses-file/
   children:
     - title: What is it?
-      path: /about/open-addresses-file
+      path: /about/open-addresses-file/
     - title: FAQ
-      path: /about/open-addresses-file/faq
+      path: /about/open-addresses-file/faq/
     - title: Code
-      path: /about/open-addresses-file/code
+      path: /about/open-addresses-file/code/
 
 - title: Get Involved
-  path: /about/get-involved
+  path: /about/get-involved/
 
 - title: News and blog
-  path: /about/blog
+  path: /about/blog/
   children:
     - title: Blog
-      path: /about/blog
+      path: /about/blog/
     - title: News
-      path: /about/news
+      path: /about/news/
     - title: Useful links
-      path: /about/links
+      path: /about/links/

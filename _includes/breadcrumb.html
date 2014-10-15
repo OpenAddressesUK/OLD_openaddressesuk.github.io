@@ -1,0 +1,23 @@
+{% if page.url != '/' %}
+
+  <ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    
+    {% for item in site.data.navigation %}
+    
+      {% if item.path == page.url %}
+        <li>{{item.title}}</li>
+      {% else %}
+        {% for child in item.children %}
+          {% if child.path == page.url %}
+            <li><a href="{{item.path}}">{{item.title}}</a></li>
+            <li>{{child.title}}</li>
+          {% endif %}        
+        {% endfor %}     
+      {% endif %}
+    
+    {% endfor %} 
+    
+  </ol>
+
+{% endif %}
