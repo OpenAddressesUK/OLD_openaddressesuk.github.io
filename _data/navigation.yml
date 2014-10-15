@@ -1,0 +1,10 @@
+- title: About
+  path: /about
+  children:
+    - title: Team
+      path: /about/team
+    - title: Jobs
+      path: /about/jobs
+
+- title: Get Involved
+  path: /about/get-involved
