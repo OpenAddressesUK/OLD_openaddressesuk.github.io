@@ -24,7 +24,6 @@
   path: /about/get-involved/
 
 - title: News and blog
-  path: /about/blog/
   children:
     - title: Blog
       path: /about/blog/
