@@ -1,5 +1,9 @@
+<script type="text/javascript">
+var submitted=false;
+</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/submit/thanks/';}"></iframe>
 <form action="https://docs.google.com/a/theodi.org/forms/d/1qneGaTnZsDzmhe85GQwSPbl-SSeeH5HnyxuAefSy0zw/formResponse" 
-      method="POST" id="ss-form" target="_new" onsubmit="" class="form-horizontal" role="form">
+      method="post" target="hidden_iframe" onsubmit="submitted=true;" class="form-horizontal" role="form">
 
   <div class="form-group">
     <label for="entry_1799941035" class="col-sm-2 control-label">Address</label>
