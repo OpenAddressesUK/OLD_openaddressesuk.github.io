@@ -5,3 +5,7 @@ layout: default
 {{content}}
 
 <p>{% if page.author %} By {{page.author}} on {% endif %} {{ page.date | date_to_long_string }}</p>
+
+<div>
+  {% include comments.html %}
+</div>
