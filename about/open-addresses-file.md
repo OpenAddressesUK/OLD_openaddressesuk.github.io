@@ -1,13 +1,18 @@
 ---
-title: Open Addresses File
+title: What is it?
 ---
 
-Bacon ipsum dolor sit amet ribeye venison shankle brisket corned beef. Venison ea spare ribs dolore consequat ut. Chuck eiusmod pork spare ribs, brisket prosciutto consectetur pork chop ribeye kielbasa. Pork chop pig ut ham hock turducken. Kevin capicola ut pork.
+The Open Addresses platform will provide a single, definitive national address framework that will ultimately contain all UK addresses and support a unique web identifier for each address. This will make it easy for people to access, link and combine address data with other data. 
 
-Ut prosciutto aliqua, voluptate magna shank short ribs strip steak quis swine aute. Aute jerky tri-tip drumstick. Cillum velit beef ribs officia chicken nulla tongue pastrami tail anim duis jerky. Leberkas fatback id, magna consequat cow in sint. Consequat ullamco reprehenderit rump dolor spare ribs cillum elit.
+We see the Open Addresses file as part of the UK’s National Information Infrastructure and will always make the full dataset available for free as open data.
 
-Officia boudin tail eiusmod ham ut. Reprehenderit dolore qui, occaecat pastrami strip steak esse. Corned beef ea doner sed. Rump flank dolore, sed sausage reprehenderit irure swine ut ut leberkas doner turkey. Incididunt kielbasa shoulder pork chop short ribs. Bresaola capicola adipisicing magna et pig sausage filet mignon deserunt laboris shoulder beef ribeye.
+We will build the address file from open data and crowd­sourced contributions and will ensure that there are no legal barriers to the republishing or reuse of either the address data or any data that is derived from it.
 
-Spare ribs in labore frankfurter qui bacon aliquip biltong landjaeger ut. Pork ground round id ut magna, in t-bone tongue strip steak sint landjaeger pariatur ullamco prosciutto eiusmod. Fatback in chicken frankfurter, id jerky cupidatat shankle. Duis drumstick venison rump tongue eu sed incididunt porchetta t-bone ut dolor strip steak pariatur. Prosciutto shank dolore pariatur. Spare ribs tongue bacon salami aute landjaeger doner sunt fugiat cillum.
+There are existing address files in the UK but all of them leave their users with issues due to either cost, completeness or licence restrictions. Our fundamental commitment to producing a free, definition and open list will allow users to focus on what they want to do; rather than having to think about whether they can afford to or are allowed to.
 
-Pork shank pig, labore meatball ex kielbasa sint aliquip et boudin short loin ground round. Anim enim ball tip ut jowl. Elit laboris turducken pig. Nisi mollit venison do eiusmod voluptate ham duis aliquip sausage porchetta tri-tip. Corned beef in velit ullamco leberkas porchetta. Short ribs jowl pastrami rump, consectetur sirloin excepteur corned beef ut porchetta fugiat.
+In addition to the file the Open Address platform will deliver functionality and APIs to consumers and publishers of address to support:
+
+• the publishing of new addresses, either singly or in bulk
+• the validation and correction of addresses
+• looking up address locations, including their administrative and electoral areas
+• creating lists of addresses within particular areas or with other shared characteristics
