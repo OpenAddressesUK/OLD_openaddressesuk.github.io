@@ -39,4 +39,4 @@ Question: How do you plan to filter out bad addresses?
 Answer: The platform will compare submitted addresses to other open data sources - for example street names and town names - to give a level of confidence to each address. We will publish and finetune the rules for this validation during the Alpha and Beta phases.
 
 
-Do you have a question that this page doesn’t answer? Drop us an email <link faq@openaddressesuk.org> and we will answer the question as quick as we can.
+Do you have a question that this page doesn’t answer? Drop us an [email](mailto:faq@openaddressesuk.org) and we will answer the question as quick as we can.

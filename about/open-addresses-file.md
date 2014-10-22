@@ -12,7 +12,7 @@ There are existing address files in the UK but all of them leave their users wit
 
 In addition to the file the Open Address platform will deliver functionality and APIs to consumers and publishers of address to support:
 
-• the publishing of new addresses, either singly or in bulk
-• the validation and correction of addresses
-• looking up address locations, including their administrative and electoral areas
-• creating lists of addresses within particular areas or with other shared characteristics
++the publishing of new addresses, either singly or in bulk
++the validation and correction of addresses
++looking up address locations, including their administrative and electoral areas
++creating lists of addresses within particular areas or with other shared characteristics
