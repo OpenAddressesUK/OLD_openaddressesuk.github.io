@@ -12,6 +12,10 @@ Well it’s been a busy couple of months since the Open Addresses Symposium on 8
 
 * **Data**: We performed due diligence on four prospective open datasets to seed the database (from Companies House, Land Registry, VOA and NROSH) and found only Companies House data was definitely untainted with third-party IP.
 
+Here's a picture of the team loading the first address into the Alpha platform:
+
+![The First Address](/assets/images/thefirstaddress.jpg)
+
 The Alpha phase completes at the end of November 2014. By then we will provide an open gazetteer of regions, localities and streets; and a page per known address. 
 
 During this phase we will also continue to expand on each of the four streams above (legal, technical, business and data) as well as looking for people to help identify and perform due diligence on other open datasets that contain addresses.
