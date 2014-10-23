@@ -12,7 +12,7 @@ Well it’s been a busy couple of months since the Open Addresses Symposium on 8
 
 * **Data**: We performed due diligence on four prospective open datasets to seed the database (from Companies House, Land Registry, VOA and NROSH) and found only Companies House data was definitely untainted with third-party IP.
 
-Here's a picture of the team loading the first address into the Alpha platform:
+Here's the team loading the first address into the Alpha platform:
 
 ![The First Address](/assets/images/thefirstaddress.jpg)
 
