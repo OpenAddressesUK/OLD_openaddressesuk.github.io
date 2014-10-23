@@ -1,24 +1,22 @@
 - title: About
   path: /about/
   children:
-    - title: About Open Addresses
-      path: /about/
+    - title: Vision
+      path: /about/data/
     - title: Team
       path: /about/team/
-    - title: Jobs
-      path: /about/jobs/
-    - title: Funders
-      path: /about/funders/
-
-- title: The Open Addresses File
-  path: /about/open-addresses-file/
-  children:
-    - title: What is it?
-      path: /about/open-addresses-file/
     - title: FAQ
-      path: /about/open-addresses-file/faq/
-    - title: Code
-      path: /about/open-addresses-file/code/
+      path: /about/data/faq/
+#    - title: Jobs
+#      path: /about/jobs/
+#    - title: Funders
+#      path: /about/funders/
+
+#- title: The Data
+#  path: /about/data/
+#  children:
+#    - title: Code
+#      path: /about/data/code/
 
 - title: Get Involved
   path: /about/get-involved/
