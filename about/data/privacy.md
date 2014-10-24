@@ -10,8 +10,6 @@ We collect personal data that you send us by email and/or when you fill in onlin
 
 We collect data about your computer, such as your IP address, operating system and web browser, and the pages that you visit (this is about your browsing actions and patterns, and does not identify you).
 
-Our website uses cookies to tell you apart from other users when we look at how people use the site. For more information on the cookies we use and why we use them please see our cookie policy.
-
 ### How we use this information
 
 We will only use your personal data to contact you in response to a request by you or to provide information that we think you may want.
