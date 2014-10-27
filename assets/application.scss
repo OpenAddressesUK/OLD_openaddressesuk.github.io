@@ -75,6 +75,14 @@ h1 {
   }
 }
 
+.submission-form.form-horizontal .control-label {
+  padding-top: 0;
+}
+
+.smallprint p {
+  font-size: $font-size-small;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
