@@ -2,34 +2,27 @@
 var submitted=false;
 </script>
 <div class="jumbotron">
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/submit/thanks/';}"></iframe>
-<form action="https://docs.google.com/a/theodi.org/forms/d/1qneGaTnZsDzmhe85GQwSPbl-SSeeH5HnyxuAefSy0zw/formResponse" 
-      method="post" target="hidden_iframe" onsubmit="submitted=true;" class="form-horizontal" role="form">
+<form action="http://powerful-depths-1407.herokuapp.com/" method="post" class="form-horizontal" role="form">
 
   <div class="form-group">
-    <label for="entry_1799941035" class="col-sm-2 control-label">Address</label>
+    <label for="address" class="col-sm-2 control-label">Address</label>
     <div class="col-sm-10">
-      <textarea name="entry.1799941035"
-                id="entry_1799941035" 
+      <textarea name="address"
+                id="address"
                 rows="6"
                 class="form-control"
                 required=""></textarea>
     </div>
   </div>
-  
+
   <div class="form-group" style="display: none">
     <!-- Honeypot to catch spam -->
-    <label for="entry_318491938" class="col-sm-2 control-label">Leave this blank</label>
+    <label for="agree_to_terms" class="col-sm-2 control-label">Leave this blank</label>
     <div class="col-sm-10">
-      <input name="entry.318491938" id="entry_318491938" class="form-control" type="text"></input>
+      <input name="agree_to_terms" id="agree_to_terms" class="form-control" type="text"></input>
     </div>
   </div>
 
-  <input name="draftResponse" value="[,,&quot;1499619420915590531&quot;]
-    " type="hidden">
-  <input name="pageHistory" value="0" type="hidden">
-  <input name="fbzx" value="1499619420915590531" type="hidden">
-  
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <button type="submit" class="btn btn-primary">Submit this address</button>

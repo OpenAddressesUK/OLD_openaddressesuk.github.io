@@ -14,13 +14,17 @@ No. If you want to prevent getting junk mail you need to register with the [Mail
 
 ### Organisation
 
-#### You state that you are exploring revenue generation options. Will the Open Addresses data really be open data?
-
-The data collected and maintained by Open Addresses will always be available in full, for free, as open data.
-
 #### How are you funded now?
 
 Our current funding comes from the Cabinet Office’s Release of Data Fund. This fund is administered by the [Open Data User Group](https://www.gov.uk/government/groups/open-data-user-group) and agreed by the [Public Sector Transparency Board](https://www.gov.uk/government/groups/public-sector-transparency-board). 
+
+#### How long does the funding last and what happens when it runs out ?
+
+Our funding lasts until the end of March 2015. At that point, we will have fully tested the feasibility of the open addresses service and made it sustainable. Part of the work until then will be to explore the different revenue generating options.
+
+#### You state that you are exploring revenue generation options. Will the Open Addresses data really be open data?
+
+The data collected and maintained by Open Addresses will always be available in full, for free, as open data. Open data is information that is available for anyone to use, for any purpose, at no cost. To generate the revenue we need to be sustainable we may provide additional chargeable products and services or we may secure funding through other routes but we are only beginning to explore the options.
 
 ### Intellectual Property
 
