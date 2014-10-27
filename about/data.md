@@ -18,6 +18,6 @@ There are existing address files in the UK but they tend to charge a fee, requir
 People wanting to use our dataset will be able to download the whole list (a “bulk download”). And we will also be developing features that, in time, will enable users to:
 
 + publish new addresses, either singly or in bulk
-+ validatie and correcting addresses
++ validate and correcting addresses
 + look up address locations, including their administrative and electoral areas
 + create lists of addresses within particular areas or with other shared characteristics
