@@ -36,7 +36,7 @@
 
 - name: Dr Mike Sanderson
   role: Non-Executive Director
-  image: http://placekitten.com/g/300/300
+  image: /assets/images/ms.jpg
   bio: |
     Mike is the Director of Strategy at 1Spatial, a company which provides software and solutions to manage large spatial data. Mike origanally received a BA Geography at Leeds University before returning to take a PhD during his career at North West Water.
 
@@ -55,9 +55,14 @@
 
 - name: Gianfranco Cecconi
   role: Technical Lead
-  image: http://placekitten.com/g/300/300
+  image: /assets/images/team_gianfranco_cecconi.png
   twitter: giacecco
-  bio: asfds
+  bio: |
+    Gianfranco is Open Addresses' Technology Lead. His background is in IT solution and enterprise architecture, technology management and large scale technology delivery across industry in Media and Telco and management consulting with Deloitte.
+
+    After delivering the official Games-Time website for the London 2012 Olympics to more than 100m unique visitors, he decided to dedicate the rest of his career to promoting and delivering technology for the common good, starting from re-training in data science and working mainly on Open Data initiatives.
+
+    Before joining Open Addresses he was an associate to the Open Data Institute in London.
 
 - name: Peter Wells
   role: Product Lead
