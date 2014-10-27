@@ -24,7 +24,7 @@ Our funding lasts until the end of March 2015. At that point, we will have fully
 
 #### You state that you are exploring revenue generation options. Will the Open Addresses data really be open data?
 
-The data collected and maintained by Open Addresses will always be available in full, for free, as open data. Open data is information that is available for anyone to use, for any purpose, at no cost. To generate the revenue we need to be sustainable we may provide additional chargeable products and services or we may secure funding through other routes but we are only beginning to explore the options.
+The data collected and maintained by Open Addresses will always be available in full, for free, as open data. Open data is information that is available for anyone to use, for any purpose, at no cost.
 
 ### Intellectual Property
 
@@ -34,13 +34,13 @@ It is vitally important to us that the open data we are publishing is reusable w
 
 #### I think that some of my or my organisation's Intellectual Property has been published through the Open Address Platform. How can I remove it?
 
-At this stage, please [email us](mailto:team@openaddressesuk.org) describing the data which you believe is affected.
+At this stage, please [email us](mailto:info@openaddressesuk.org) describing the data which you believe is affected.
 
 ### Donations
 
 #### I have some address data which I want to donate. What do I do next?
 
-We’d love to receive it! We need to ensure that you follow the rules and provenance guidelines for submissions to ensure that there is no unlicensed third-party IP in the file. At this stage, please [get in touch](mailto:team@openaddressesuk.org) with details about the data that you'd like to donate.
+We’d love to receive it! We need to ensure that you follow the rules and provenance guidelines for submissions to ensure that there is no unlicensed third-party IP in the file. At this stage, please [get in touch](mailto:info@openaddressesuk.org) with details about the data that you'd like to donate.
 
 ### Quality
 
@@ -64,4 +64,4 @@ If we conclude that it is not possible to build a sustainable open address datab
 
 ---
 
-Do you have a question that this page doesn’t answer? Drop us an [email](mailto:faq@openaddressesuk.org) and we will answer the question as quick as we can.
+Do you have a question that this page doesn’t answer? Drop us an [email](mailto:info@openaddressesuk.org) and we will answer the question as quick as we can.

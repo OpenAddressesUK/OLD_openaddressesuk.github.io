@@ -6,7 +6,7 @@ At Open Addresses, we are bringing together information about the places where w
 
 Do you want to get involved by opening an address?
 
-It’s as simple as sharing an address below.
+It’s as simple as entering it below.
 
 {% include submission_form.html %}
 
@@ -14,4 +14,4 @@ Addresses are a vital part of the UK’s National Information Infrastructure. Op
 
 You can help build and maintain an address list for everyone through this platform.
 
-Want to know more? Check out the [Vision](about/data/), the list of [Frequently Asked Questions](about/data/faq/), [register for the mailist](/about/get-involved/) or drop us an [email](mailto:team@openaddressesuk.org).
+Want to know more? Check out the [Vision](about/data/), the list of [Frequently Asked Questions](about/data/faq/), [register for the mailist](/about/get-involved/) or drop us an [email](mailto:info@openaddressesuk.org).
