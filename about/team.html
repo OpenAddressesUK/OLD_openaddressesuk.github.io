@@ -1,17 +1,31 @@
 ---
 title: Team
 ---
-
 {% for member in site.data.team %}
 <div class="media">
-  <img class="pull-left media-object" src="{{member.image}}" alt="{{member.name}}" title="{{member.name}}">
   <div class="media-body">
     <h3 class="media-heading">{{member.name}}</h3>
     <h4 class="media-heading">{{member.role}}</h4>
-    {{ member.bio | markdownify }}
-    {% if member.twitter %}
-    <p><b><a href="http://twitter.com/{{member.twitter}}">@{{member.twitter}}</a></b></p>
-    {% endif %}
+    <div class='row'>
+      <div class='col-sm-9'>
+        {{ member.bio | markdownify }}
+      </div>
+      <div class='col-sm-3'>
+        <div class='thumbnail'>
+          {% if member.image %}
+            <img class="team-photo" src="{{member.image}}" alt="{{member.name}}" title="{{member.name}}">
+          {% endif %}
+          <div class="caption">
+            {% if member.twitter %}
+              <a href="http://twitter.com/{{member.twitter}}">
+                <i class='fa fa-twitter'></i>
+                @{{member.twitter}}
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 {% endfor %}
