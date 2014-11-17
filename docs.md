@@ -43,12 +43,18 @@ Significant candidate sources of addresses could not be used as they either
 
 A great example of this is [Land Registry's "Price Paid" data](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads). Price Paid is licensed under the Open Government Licence that does not cover "third party rights the Information Provider is not authorised to license", and we got [confirmation](https://www.whatdotheyknow.com/request/price_paid_dataset_followup/new) through FOI that "Land Registry has been using Royal Mail (PAF) data to validate addresses between 1995 and 2000 and Ordnance Survey data sources since the start of computerised data capture/mapping processes in 2000 to the current day".
 
-Companies House's Free Company Data was not affected by licensing constraints that block us from re-using it and we got confirmation of ****SOME REFERENCE, HOW DO WE KNOW?**** but for a constraint on Northern Ireland addresses that ******** and have been hence removed.
+Companies House's Free Company Data was not affected by licensing constraints that block us from re-using it and [we got confirmation that it does not include third party material](https://www.whatdotheyknow.com/request/free_company_data_third_party_in) but for a constraint on Northern Ireland addresses that ******** and have been hence removed.
 
 The software component that is responsible of interpreting Companies House's data for use in Open Addresses is the *Companies House ETL*. The addresses are stored as "free text" in the source, so an important responsibility of the ETL is to normalise the addresses in their components and each of the components vs the reference tables, wherever suitable. As described above, addresses that cannot be matched vs the reference tables are discarded. You are very welcome to study the [source code](https://github.com/OpenAddressesUK/common-ETL) to see the detail. 
 
 #<a name='ingester'>The Ingester component</a>
-Blah blah
+The Open Addresses solution is designed to support more ETL components in the future, many of which may not necessarily be controlled directly by Open Addresses but contributed and operated by other individuals or organisations, using alternative sources of data or means to produce the data first hand, e.g. through crowdsourcing.
+
+The *Ingester* component is the interface between Open Addresses and the ecosystem of contributing ETLs. It provides a public API through which registered ETLs will be able to submit addresses programmatically to our system. Our own Companies House ETL is run as if it was one of these third parties ETLs. 
+
+During Beta we will publish instructions on how to run your own ETL and interface the Ingester. For Alpha, the Companies House ETL and the Open Addresses website are the only ETLs enabled to submit addresses to the Ingester.
+
+Data submitted through the Ingester is stored in what we call the "raw database". It's *raw* as we cannot make (yet) any assumption on the quality of the addresses that are submitted to us, but just store them for later processing. The Ingester's database need to be effective at dealing with large volumes of loosely structured, incomplete and duplicate addresses submissions. In case we had concerns around any submission - e.g. around the intellectual property of its data - the Ingester also allows Open Addresses to quarantine that data while any necessary due diligence is performed.
 
 #<a name='distiller'>The Distiller component</a>
 Blah blah
