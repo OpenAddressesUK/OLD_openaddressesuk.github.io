@@ -55,7 +55,11 @@ During Beta we will publish instructions on how to run your own ETL and interfac
 Data submitted through the Ingester is stored in what we call the "raw database". It's *raw* as we cannot make (yet) any assumption on the quality of the addresses that are submitted to us, but just store them for later processing. The Ingester's database need to be effective at dealing with large volumes of loosely structured, incomplete and duplicate addresses submissions. In case we had concerns around any submission - e.g. around the intellectual property of its data - the Ingester also allows Open Addresses to quarantine that data while any necessary due diligence is performed.
 
 #<a name='distiller'>The Distiller component</a>
-The Distiller component distills the raw database into the best possible consistent set of addresses we can produce at the moment of execution. For Alpha, this means mainly resolve conflict between duplicates. In Beta its role will become much more substantial, as the Distiller will detect misspellings and alternative spellings, manage contradicting sources for the same addresses, calculate rigorous statistical confidence in each address, possibly do cross-ETL inference, define the provenance record for the derived address data accordingly etc..
+The Distiller component distills the raw database into the best possible consistent set of addresses we can produce at the moment of execution. 
+
+For Alpha, this means mainly identifying duplicates, e.g. after the same addresses was ingested more than once because more of one organisation in Companies House's data are associated to it. 
+
+In Beta the Distiller's role will become much more substantial, as it will detect misspellings and alternative spellings, manage contradicting sources for the same addresses, calculate rigorous statistical confidence in each address, possibly do cross-ETL inference, define the provenance record for the derived address data accordingly etc..
 
 The Distiller is also responsible of creating unique identifiers for each unique component of all known addresses, so that they can be referenced in a linked data fashion and published accordingly, as described below.
 
