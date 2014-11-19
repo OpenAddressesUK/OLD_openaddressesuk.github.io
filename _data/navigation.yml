@@ -18,6 +18,9 @@
 #    - title: Code
 #      path: /about/data/code/
 
+- title: Download
+  path: /download
+
 - title: Get Involved
   path: /about/get-involved/
 

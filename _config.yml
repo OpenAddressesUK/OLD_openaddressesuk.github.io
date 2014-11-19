@@ -15,3 +15,5 @@ defaults:
       layout: post
 
 permalink: pretty
+
+download_link: http://open-addresses-ltd.s3-website-eu-west-1.amazonaws.com/addresses.csv.torrent
