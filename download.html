@@ -7,13 +7,6 @@ layout: notitle
 
   <h1 property="dct:title">Open Addresses Bulk Download</h1>
 
-  <p>
-    <strong>
-      NOTE: all information here is placeholder information, and
-      subject to change.
-    </strong>
-  </p>
-
   <p property="dct:description">
     Write interesting and exciting text here about the dataset. This is the DCAT
     description.
@@ -25,9 +18,9 @@ layout: notitle
   </p>
 
   <p property="dct:license" resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/">
-    Licensed as open data under the
-    <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/">
-      <span property="dct:title">UK Open Government License</span>
+    Licensed as Open Data under the
+    <a href="https://creativecommons.org/licenses/by/4.0/">
+      <span property="dct:title">Creative Commons Attribution 4.0 International (BB CY 4.0) licence</span>
     </a>.
   </p>
 
@@ -40,30 +33,43 @@ layout: notitle
   
   <p>
     You will need a bittorrent client in order to download the data. We recommend:
+    <ul>
+      <li>Windows: <a href='http://www.utorrent.com/downloads/win'>&#181;Torrent</a></li>
+      <li>OSX / Linux: <a href='https://www.transmissionbt.com'>Transmission</a></li>
+    </ul>
   </p>
 
-  <ul>
-    <li>Windows: <a href='http://www.utorrent.com/downloads/win'>&#181;Torrent</a></li>
-    <li>OSX / Linux: <a href='https://www.transmissionbt.com'>Transmission</a></li>
-  </ul>
+  <div property='dcat:distribution' typeof='dcat:Distribution'>
+      <h3 property="dct:title">Open Addresses Database (downloadable, addresses-only)</h3>
+      <p property="dct:description">
+        This is the addresses-only version of the Open Addresses database, which just includes the complete list of addresses available at the moment of publishing, without provenance information. It is distributed as a single zip file containing one CSV file per postcode 'outward code' (the part before the space).
+      </p>
+      <ul>
+        <li>Format: <span content='http://purl.org/NET/mediatypes/application/zip' property='dcat:mediaType'>zip</span></li>
+      </ul>
+      <p>
+        <a class='btn btn-primary' href='{{site.download_link}}' property='dcat:accessURL'>
+          <i class='fa fa-cloud-download'></i>
+          Download
+        </a>
+      </p>
+  </div>  
 
+  <div property='dcat:distribution' typeof='dcat:Distribution'>
+      <h3 property="dct:title">Open Addresses Database (downloadable, full)</h3>
+      <p property="dct:description">
+        As above, but including provenance information.
+      </p>
+      <ul>
+        <li>Format: <span content='http://purl.org/NET/mediatypes/application/zip' property='dcat:mediaType'>zip</span></li>
+      </ul>
+      <p>
+        <a class='btn btn-primary' href='{{site.download_link}}' property='dcat:accessURL'>
+          <i class='fa fa-cloud-download'></i>
+          Download
+        </a>
+      </p>
+  </div>  
 
-<div property='dcat:distribution' typeof='dcat:Distribution'>
-    <h3 property="dct:title">Simple Address File</h3>
-    <p property="dct:description">
-      This is the simplified address file, which just includes the complete list of addresses without provenance information.
-    </p>
-    <ul>
-      <li>Format: <span content='text/csv' property='dcat:mediaType'>CSV</span></li>
-    </ul>
-    <p>
-      <a class='btn btn-primary' href='{{site.download_link}}' property='dcat:accessURL'>
-        <i class='fa fa-cloud-download'></i>
-        Download Simple Address File
-      </a>
-    </p>
-</div>  
-
-  
   
 </div>
