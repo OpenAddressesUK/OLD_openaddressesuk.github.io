@@ -7,12 +7,15 @@ This document describes the Open Addresses solution for the *Alpha* stage, compl
 
 The description follows the flow of the data from its third party Open Data or public data sources through the final Open Addresses product, that is also visualised in [this diagram](/assets/images/docs/data_workflow.png). 
 
+- <a href='#sources'>Our sources of address data</a>
 - <a href='#commonetl'>The reference data sources and the Common ETL</a>
 - <a href='#companieshouseetl'>The addresses sources and the Companies House ETL</a>
 - <a href='#ingester'>The Ingester component</a>
 - <a href='#distiller'>The Distiller component</a>
 - <a href='#publishingapis'>The publishing APIs</a>
 - <a href='#downloadable'>The downloadable Open Addresses database</a>
+
+#<a name='sources'>Our sources of address data</a>
 
 #<a name='commonetl'>The reference data sources and the Common ETL</a>
 Open Addresses uses two types of Open Data sources:
