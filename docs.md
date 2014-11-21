@@ -82,4 +82,37 @@ Blah blah
 Blah blah
 
 #<a name='provenance'>Provenance</a>
-Blah blah
+Given the sensitiveness of the intellectual property matters surrounding address data in the UK, it is critical for Open Address to work fully in the open and to document in detail how our data is created or derived from its sources. 
+
+[All of our source code is published on GitHub](https://github.com/openaddressesuk) and the data we publish is available for distribution in formats that include sufficient provenance information to fully assess its origin. It is our ambition to give anybody the means to reproduce all of our work, producing for their own the same data we publish.
+
+The typical provenance information associated to each address for Alpha looks like in the JSON code below [****NOT FINAL FORMAT****]. It references the exact source code that was run and the data sources that were used, and when the data processing and the download took place. Whenever technically and legally feasible [we also store unmodified copies of the source data for reference and due diligence](http://download.openaddressesuk.org.s3-website-eu-west-1.amazonaws.com/?prefix=sources_archive/), e.g. the five files listed in the example.
+
+<pre><code><font size="-2">{
+	(...)
+	"provenance": {
+		"activity":{
+			"processing_scripts":"[LINK TO THE DISTILLER REPOSITORY **TREE** used for distillation]",
+			"executed_at":"2014-11-19T09:53:14.000Z",
+			"derived_from": [
+				{
+					"type":"Source",
+					"description_url":"http://download.companieshouse.gov.uk/en_output.html",
+					"url":[
+						"http://download.companieshouse.gov.uk/BasicCompanyData-2014-11-01-part1_5.zip",
+						"http://download.companieshouse.gov.uk/BasicCompanyData-2014-11-01-part2_5.zip",
+						"http://download.companieshouse.gov.uk/BasicCompanyData-2014-11-01-part3_5.zip",
+						"http://download.companieshouse.gov.uk/BasicCompanyData-2014-11-01-part4_5.zip",
+						"http://download.companieshouse.gov.uk/BasicCompanyData-2014-11-01-part5_5.zip"
+					],
+					"name":"Companies House's \"Free Company Data Product\"",
+					"downloaded_at":"2014-11-21T12:21:49.859Z",
+					"processing_scripts":"https://github.com/OpenAddressesUK/common-ETL/tree/efcd9970fc63c12b2f1aef410f87c2dcb4849aa3"
+				},
+				(...)
+			]
+		}
+	}
+}</font></code></pre>
+
+We are evaluating adopting a recognised standard for documenting provenance in Beta, such as W3C's [PROV](http://www.w3.org/TR/prov-dm/).
