@@ -5,17 +5,16 @@ layout: notitle
 
 <div typeof="dcat:Dataset" resource="http://openaddressesuk.org{{page.url}}">
 
-  <h1 property="dct:title">Open Addresses Bulk Download</h1>
+    <h1 property="dct:title">Open Addresses Bulk Download</h1>
 
-  <p property="dct:description">
-    Write interesting and exciting text here about the dataset. This is the DCAT
-    description.
-  </p>
+    <p property="dct:description">
+        You can download below the "addresses-only" and full version of the Open Addresses database.  
+    </p>
   
-  <p>
-    The data is updated 
-    <a href="http://purl.org/linked-data/sdmx/2009/code#freq-D" property="dcat:accrualPeriodicity">every day</a>.
-  </p>
+    <p>
+        The data is updated 
+        <a href="http://purl.org/linked-data/sdmx/2009/code#freq-D" property="dcat:accrualPeriodicity">every day</a>.
+    </p>
 
   <p property="dct:license" resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/">
     Licensed as Open Data under the
@@ -42,7 +41,7 @@ layout: notitle
   <div property='dcat:distribution' typeof='dcat:Distribution'>
       <h3 property="dct:title">Open Addresses Database (downloadable, addresses-only)</h3>
       <p property="dct:description">
-        This is the addresses-only version of the Open Addresses database, which just includes the complete list of addresses available at the moment of publishing, without provenance information. It is distributed as a single zip file containing one CSV file per postcode 'outward code' (the part before the space).
+        This is the addresses-only version of the Open Addresses database, which just includes the complete list of addresses available at the moment of publishing, without provenance information. It is distributed as a single ZIP file, containing one ZIP file per postcode initial letter, containing one CSV file per [postcode area](http://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom#Postcode_area).
       </p>
       <ul>
         <li>Format: <span content='http://purl.org/NET/mediatypes/application/zip' property='dcat:mediaType'>zip</span></li>
