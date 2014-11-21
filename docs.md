@@ -76,10 +76,13 @@ In Beta the Distiller's role will become much more substantial, as it will detec
 The Distiller is also responsible of creating unique identifiers for each unique component of all known addresses, so that they can be referenced in a linked data fashion and published accordingly, as described below.
 
 #<a name='publishingapis'>The publishing APIs</a>
-Blah blah
+Open Addresses offers several APIs (Application Programming Interfaces) to integrate our live data into your applications. During Alpha cover the following functionality:
+
+- We publish each address component (street, locality, post town and postcode) and each address as URIs (unique resource identifiers) so that they can be easily referenced from third party applications. The URIs have the format *http://alpha.openaddressesuk.org/[***AWAITING TEAM TO TELL ME***]*. Browsing any of these URIs using a conventional Web browser will offer you a human-readable Web page of the data describing that address or address component.
+- You can search the Open Addresses database by querying *http://alpha.openaddressesuk.org/[***AWAITING TEAM TO TELL ME***]*.
 
 #<a name='downloadable'>The downloadable Open Addresses database</a>
-Blah blah
+Downloadable versions of the Open Addresses database are available, too. See the [download page](/download) for more detail. 
 
 #<a name='provenance'>Provenance</a>
 Given the sensitiveness of the intellectual property matters surrounding address data in the UK, it is critical for Open Address to work fully in the open and to document in detail how our data is created or derived from its sources. 
