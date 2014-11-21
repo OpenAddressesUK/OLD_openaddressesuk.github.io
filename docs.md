@@ -7,6 +7,9 @@ This document describes the Open Addresses solution for the *Alpha* stage, compl
 
 The description follows the flow of the data from its third party Open Data or public data sources through the final Open Addresses product, that is also visualised in [this diagram](/assets/images/docs/data_workflow.png). 
 
+<img src="/assets/images/docs/data_workflow_preview.png">
+Click on the diagram to see the full version.
+
 - <a href='#sources'>Our sources of address data</a>
 - <a href='#etls'>The ETL modules ("Extract, Transform, Load")</a>
 - <a href='#ingester'>The Ingester module</a>
