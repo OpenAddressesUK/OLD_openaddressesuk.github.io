@@ -5,18 +5,20 @@ layout: default
 
 This document describes the Open Addresses solution for the *Alpha* stage, completed on **** November 2014. 
 
-The description follows the flow of the data from its third party Open Data or public data sources through the final Open Addresses product, that is also visualised in [this diagram](/assets/images/docs/data_workflow.png). 
+The description follows the flow of data processing from its third party Open Data or public data sources down through the final Open Addresses database. The same is also visualised in [this diagram](/assets/images/docs/data_workflow.png) for reference. 
 
 <img src="/assets/images/docs/data_workflow_preview.png">
 Click on the diagram to see the full version.
 
+##Table of Contents
+
 - <a href='#sources'>Our sources of address data</a>
-- <a href='#etls'>The ETL modules ("Extract, Transform, Load")</a>
-- <a href='#ingester'>The Ingester module</a>
-- <a href='#distiller'>The Distiller module</a>
+- <a href='#etls'>The ETL software modules ("Extract, Transform, Load")</a>
+- <a href='#ingester'>The Ingester software module</a>
+- <a href='#distiller'>The Distiller software module</a>
 - <a href='#publishingapis'>The publishing APIs</a>
 - <a href='#downloadable'>The downloadable Open Addresses database</a>
-- <a href='#provenance'>Provenance</a>
+- <a href='#provenance'>How provenance is documented</a>
 
 #<a name='sources'>Our sources of address data</a>
 
@@ -50,7 +52,7 @@ Each of the sources described above are currently maintained and updated regular
 
 It is important to note that, for Open Addresses' Alpha stage, we also decided to ignore addresses that cannot be matched against any of the reference tables. This approach will change during the Beta stage, when we will estimate programmatically the statistical confidence we can put in each single address and address component. This will allow us to publish addresses with a heterogeneous degree of trustworthiness, without the risk of confusing the user.
 
-#<a name='etls'>The ETL modules</a>
+#<a name='etls'>The ETL software modules</a>
 
 ##The Common ETL
 The reference data created from its sources described above by the software component we call *common ETL* (ETL as in "Extract, Transform, Load"). We consider the data highly reliable, hence it goes through minimal processing before being stored for Open Addresses' use. You are very welcome to study the [source code](https://github.com/OpenAddressesUK/common-ETL) to see the detail. 
@@ -58,7 +60,7 @@ The reference data created from its sources described above by the software comp
 ##The Companies House ETL
 The software component that is responsible of interpreting Companies House's data for use in Open Addresses is the *Companies House ETL*. The addresses are stored as "free text" in the source, so an important responsibility of the ETL is to decompose the addresses in their components and normalise each of the components vs the reference tables, wherever suitable. As described above, addresses that cannot be matched vs the reference tables are discarded. You are very welcome to study the [source code](https://github.com/OpenAddressesUK/common-ETL) to see the detail. 
 
-#<a name='ingester'>The Ingester module</a>
+#<a name='ingester'>The Ingester software module</a>
 The Open Addresses solution is designed to support an etherogeneous, distributed set ETL modules in the future, many of which may not necessarily be owned directly by Open Addresses but contributed and operated by other individuals or organisations, using alternative sources of data or means to produce the data first hand, e.g. through crowdsourcing.
 
 The *Ingester* module is the interface between Open Addresses and this *ecosystem* of contributing ETLs. It provides a (soon to be) public API through which registered ETL modules will be able to submit addresses programmatically to our database of address submissions. Our own Companies House ETL module is run as if it was one of these third parties ETLs. 
@@ -69,7 +71,7 @@ Data submitted through the Ingester is stored in what we call the "raw database"
 
 It is also important for the Ingester to manage different submissions as if they were 'transactions'. This is useful, for example, in case we had concerns around any of the submission - e.g. their intellectual property - so that we can 'quarantine' that data while any necessary due diligence is performed.
 
-#<a name='distiller'>The Distiller module</a>
+#<a name='distiller'>The Distiller software module</a>
 The Distiller module 'distills' the raw database into the best possible consistent set of addresses we can produce at the moment of execution. 
 
 For Alpha, this means mainly identifying duplicates, e.g. this typically happens with the Companies House ETL if more companies are registered at the same addresses. 
@@ -87,7 +89,7 @@ Open Addresses offers several APIs (Application Programming Interfaces) to integ
 #<a name='downloadable'>The downloadable Open Addresses database</a>
 Downloadable versions of the Open Addresses database are available, too. See the [download page](/download) for more detail. 
 
-#<a name='provenance'>Provenance</a>
+#<a name='provenance'>How provenance is documented</a>
 Given the sensitiveness of the intellectual property matters surrounding address data in the UK, it is critical for Open Address to work fully in the open and to document in detail how our data is created or derived from its sources. 
 
 [All of our source code is published on GitHub](https://github.com/openaddressesuk) and the data we publish is available for distribution in formats that include sufficient provenance information to fully assess its origin. It is our ambition to give anybody the means to reproduce all of our work, producing for their own the same data we publish.
