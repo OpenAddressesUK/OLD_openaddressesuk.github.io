@@ -82,6 +82,8 @@ In Beta the Distiller's role will become much more substantial, as it will detec
 
 The Distiller is also responsible of creating unique identifiers for each unique component of all known addresses, so that they can be referenced in a linked data fashion and published accordingly, as described below.
 
+You are welcome to review or contribute to the current version of the Distiller on GitHub [here](https://github.com/OpenAddressesUK/distiller).
+
 #<a name='publishingapis'>The publishing APIs</a>
 Open Addresses offers several APIs (Application Programming Interfaces) to integrate our live data into your applications. During Alpha cover the following functionality:
 
