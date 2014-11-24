@@ -93,6 +93,10 @@ Open Addresses offers several APIs (Application Programming Interfaces) to integ
 #<a name='downloadable'>The downloadable Open Addresses database</a>
 Downloadable versions of the Open Addresses database are available, too. See the [download page](/download) for more detail. 
 
+The software module responsible of producing the downloadable versions is called internally "Hippodamus" after [Hippodamus of Miletus](https://en.wikipedia.org/wiki/Hippodamus_of_Miletus): an ancient Greek architect, urban planner, physician, mathematician, meteorologist and philosopher commonly is considered to be the "father" of urban planning. 
+
+You are welcome to review or contribute to the current version of the Hippodamus on GitHub [here](https://github.com/OpenAddressesUK/hippodamus/).
+
 #<a name='provenance'>How provenance is documented</a>
 Given the sensitiveness of the intellectual property matters surrounding address data in the UK, it is critical for Open Address to work fully in the open and to document in detail how our data is created or derived from its sources. 
 
