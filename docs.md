@@ -63,13 +63,15 @@ The software component that is responsible of interpreting Companies House's dat
 #<a name='ingester'>The Ingester software module</a>
 The Open Addresses solution is designed to support an etherogeneous, distributed set ETL modules in the future, many of which may not necessarily be owned directly by Open Addresses but contributed and operated by other individuals or organisations, using alternative sources of data or means to produce the data first hand, e.g. through crowdsourcing.
 
-The *Ingester* module is the interface between Open Addresses and this *ecosystem* of contributing ETLs. It provides a (soon to be) public API through which registered ETL modules will be able to submit addresses programmatically to our database of address submissions. Our own Companies House ETL module is run as if it was one of these third parties ETLs. 
+The *Ingester* module - called internally "Ernest" in honour of Ernest Marples who was [postmaster general at the time of the introduction of postcodes in the UK](http://en.wikipedia.org/wiki/Ernest_Marples) - is the interface between Open Addresses and this *ecosystem* of contributing ETLs. It provides a (soon to be) public API through which registered ETL modules will be able to submit addresses programmatically to our database of address submissions. Our own Companies House ETL module is run as if it was one of these third parties ETLs. 
 
-During Beta we will publish instructions on how to run your own ETL and interface the Ingester. For Alpha, the Companies House ETL and the Open Addresses website itself (through the form on the homepage) are the only ETLs enabled to submit addresses to the Ingester.
+During Beta we will publish instructions on how to run your own ETL and interface the Ingester. During Alpha, the Companies House ETL and the Open Addresses website itself (through the form on the homepage) are the only ETLs enabled to submit addresses to the Ingester. 
 
 Data submitted through the Ingester is stored in what we call the "raw database". It's *raw* as we cannot make (yet) any general assumption on the quality of the addresses that are submitted to us, but just store them for later processing. The Ingester's database need to be effective at dealing with large volumes of loosely structured, incomplete and duplicate addresses submissions. 
 
 It is also important for the Ingester to manage different submissions as if they were 'transactions'. This is useful, for example, in case we had concerns around any of the submission - e.g. their intellectual property - so that we can 'quarantine' that data while any necessary due diligence is performed.
+
+You are welcome to review or contribute to the current version of the Ingester on GitHub [here](https://github.com/OpenAddressesUK/ernest).
 
 #<a name='distiller'>The Distiller software module</a>
 The Distiller module 'distills' the raw database into the best possible consistent set of addresses we can produce at the moment of execution. 
