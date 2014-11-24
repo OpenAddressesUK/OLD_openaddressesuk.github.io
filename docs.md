@@ -55,10 +55,14 @@ It is important to note that, for Open Addresses' Alpha stage, we also decided t
 #<a name='etls'>The ETL software modules</a>
 
 ##The Common ETL
-The reference data created from its sources described above by the software component we call *common ETL* (ETL as in "Extract, Transform, Load"). We consider the data highly reliable, hence it goes through minimal processing before being stored for Open Addresses' use. You are very welcome to study the [source code](https://github.com/OpenAddressesUK/common-ETL) to see the detail. 
+The reference data created from its sources described above by the software component we call *common ETL* (ETL as in "Extract, Transform, Load"). We consider the data highly reliable, hence it goes through minimal processing before being stored for Open Addresses' use. 
+
+You are welcome to review or contribute to the current version of the Distiller on GitHub [here](https://github.com/OpenAddressesUK/common-ETL).
 
 ##The Companies House ETL
-The software component that is responsible of interpreting Companies House's data for use in Open Addresses is the *Companies House ETL*. The addresses are stored as "free text" in the source, so an important responsibility of the ETL is to decompose the addresses in their components and normalise each of the components vs the reference tables, wherever suitable. As described above, addresses that cannot be matched vs the reference tables are discarded. You are very welcome to study the [source code](https://github.com/OpenAddressesUK/common-ETL) to see the detail. 
+The software component that is responsible of interpreting Companies House's data for use in Open Addresses is the *Companies House ETL*. The addresses are stored as "free text" in the source, so an important responsibility of the ETL is to decompose the addresses in their components and normalise each of the components vs the reference tables, wherever suitable. As described above, addresses that cannot be matched vs the reference tables are discarded. 
+
+You are welcome to review or contribute to the current version of the Distiller on GitHub [here](https://github.com/OpenAddressesUK/common-ETL).
 
 #<a name='ingester'>The Ingester software module</a>
 The Open Addresses solution is designed to support an etherogeneous, distributed set of ETL modules in the future, many of which may not necessarily be owned directly by Open Addresses but contributed and operated by other individuals or organisations, using alternative sources of data or means to produce the data first hand, e.g. through crowdsourcing.
