@@ -8,7 +8,9 @@ title: Team
     <h4 class="media-heading">{{member.role}}</h4>
     <div class='row'>
       <div class='col-sm-9'>
-        {{ member.bio | markdownify }}
+        {% for paragraph in member.bio %}
+          <p>{{ paragraph | markdownify }}</p>
+        {% endfor %}
       </div>
       <div class='col-sm-3'>
         <div class='thumbnail'>
@@ -29,4 +31,3 @@ title: Team
   </div>
 </div>
 {% endfor %}
-
