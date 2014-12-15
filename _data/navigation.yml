@@ -7,6 +7,40 @@
       path: /about/team/
     - title: FAQ
       path: /about/data/faq/
+
+
+- title: Search the data
+  path: /about/search
+
+- title: Get the data
+  path: /about/getdata
+
+- title: How it works
+  children:
+    - title: Technology
+      path: /about/docs
+    - title: Adding data
+      path: /about/addingdata
+    - title: Business Model
+      path: /about/business
+
+- title: Get involved
+  path: /about/involved/
+
+- title: News and blog
+  children:
+    - title: Blog
+      path: /about/blog/
+    - title: News
+      path: /about/news/
+    - title: Useful links
+      path: /about/links/
+
+
+
+# - title: Documentation
+#  path: /docs
+
 #    - title: Jobs
 #      path: /about/jobs/
 #    - title: Funders
@@ -18,20 +52,5 @@
 #    - title: Code
 #      path: /about/data/code/
 
-- title: Download
-  path: /download
-
-- title: Documentation
-  path: /docs
-
-- title: Get Involved
-  path: /about/get-involved/
-
-- title: News and blog
-  children:
-    - title: Blog
-      path: /about/blog/
-    - title: News
-      path: /about/news/
-    - title: Useful links
-      path: /about/links/
+# - title: Download
+#  path: /download
